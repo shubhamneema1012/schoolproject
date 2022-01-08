@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.mybox{
+    width:100vw;
+    overflow: hidden;
+    position:relative;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1vw;
+}
+.mycards{
+    width:20vw;
+    padding: 1vw;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin:10px 0;
+    border:2px solid black;
+}
+.mycards h1{
+    font-size: 3vw;
+}
+.mycards p{
+    font-size: 2vw;
+}
+button{
+    border:none;
+    outline:none;
+    background: blue;
+    color:white;
+    padding:1vw 4vw;
+}
